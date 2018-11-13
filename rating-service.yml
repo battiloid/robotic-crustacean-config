@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rating-service
+server:
+  port: 8082
+
+eureka:
+  client:
+    region: default
+    registryFetchIntervalSeconds: 5
