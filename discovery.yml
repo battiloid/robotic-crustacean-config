@@ -2,7 +2,7 @@ spring:
   application:
     name: discovery
   redis:
-    host: localhost
+    host: testing-redis-server
     port: 6379
 
 server:
