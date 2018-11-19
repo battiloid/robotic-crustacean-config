@@ -1,16 +1,14 @@
 spring:
   application:
-    name: rating-service
+    name: beer-service
+  session:
+    store-type: redis
   redis:
     host: localhost
     port: 6379
     
 server:
   port: 8084
-
-management:
-    security:
-        sessions: never
   
 eureka:
   client:
